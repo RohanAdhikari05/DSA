@@ -2,9 +2,7 @@ class RecentCounter {
 public:
     queue<int>q;
     RecentCounter() {
-        while(!q.empty()){
-            q.pop();
-        }
+        
     }
     int ping(int t) {
         q.push(t);
